@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: rgba(34, 34, 34, 0.45);
+    color: #B7BAC9;
+    font-weight: 200;
+    padding: 1rem;
+
+    &__logo{
+
+    }
+    &__option{
+
+    }
+    &__input{
+        margin: 0;
+        padding: 0;
+        max-height: 2rem;
+    }
+    &__navbar{
+
+    }
+}

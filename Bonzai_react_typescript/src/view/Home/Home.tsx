@@ -1,5 +1,6 @@
 import './Home.scss'
 import { useNavigate } from 'react-router-dom'
+import Header from '../../components/Header/Header';
 
 function Home() {
 
@@ -9,6 +10,7 @@ function Home() {
   }
   return (
     <div className='Home'>
+      <Header />
       <h1>Welcome to the Home Page!</h1>
       <h5 onClick={handleClick}>Go to rooms</h5>
     </div>
