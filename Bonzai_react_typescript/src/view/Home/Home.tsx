@@ -9,7 +9,7 @@ function Home() {
     navigate('/Rooms')
   }
   return (
-    <div className='Home'>
+    <div className='home'>
       <Header />
       <h1>Welcome to the Home Page!</h1>
       <h5 onClick={handleClick}>Go to rooms</h5>

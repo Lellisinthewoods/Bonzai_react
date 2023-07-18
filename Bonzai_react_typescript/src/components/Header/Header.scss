@@ -6,21 +6,30 @@
     font-family: 'Nunito Sans', sans-serif;
     background-color: rgba(34, 34, 34, 0.45);
     color: #B7BAC9;
-    font-weight: 200;
-    padding: 1rem;
+    font-size: 14px;
+    font-weight: 400;
+    max-height: 5rem;
 
     &__logo{
-
+        max-height: 70%;
+        max-width: 3rem;
+        margin:1rem;
     }
     &__option{
 
     }
     &__input{
-        margin: 0;
-        padding: 0;
+        margin: 1rem;
         max-height: 2rem;
+        background: rgba(217, 217, 217, 0.2);
+        border: 1px solid #B7BAC9;
+        border-radius: 3px;
+        min-height: fit-content;
+        font-size: 16px;
+        padding: 3px;
     }
     &__navbar{
-
+        max-height: 1.5rem;
+        margin: 1rem;
     }
 }
