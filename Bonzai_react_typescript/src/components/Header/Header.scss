@@ -3,11 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Nunito Sans', sans-serif;
     background-color: rgba(34, 34, 34, 0.45);
-    color: #B7BAC9;
-    font-size: 14px;
-    font-weight: 400;
     max-height: 5rem;
 
     &__logo{
@@ -16,7 +12,8 @@
         margin:1rem;
     }
     &__option{
-
+        font-size: 14px;
+        font-weight: 200;
     }
     &__input{
         margin: 1rem;
@@ -25,6 +22,7 @@
         border: 1px solid #B7BAC9;
         border-radius: 3px;
         min-height: fit-content;
+        min-width: 3rem;
         font-size: 16px;
         padding: 3px;
     }

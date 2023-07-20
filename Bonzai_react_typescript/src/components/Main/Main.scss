@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+    &__title{
+        font-family: 'Michroma';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 85px;
+        &--yellow{
+            color: #DFB426;
+        }
+    }
+
+    &__sub{
+        margin: 2rem;
+        font-weight: 200;
+        font-style: italic;
+        font-size: 31px;
+        line-height: 42px;
+    }
+}
